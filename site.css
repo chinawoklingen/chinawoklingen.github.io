@@ -1,0 +1,39 @@
+body {
+
+}
+
+#header {
+    background: url(../images/bg.jpg) no-repeat center;
+    min-height: 400px;
+    background-size: 100%;
+}
+
+#header > .container {
+    padding-top: 350px;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.nav-item {
+    margin-right: 48px;
+}
+
+.nav-item a:hover {
+    background-color: #3d8bfd;
+}
+
+.nav-item a.active-item {
+    background-color: #3d8bfd;
+}
+
+#content > .container {
+    margin-top: 48px;
+}
+
+#content #pictures img {
+    height: 200px;
+}
+
+#footer > .container {
+    margin-top: 200px;
+}
